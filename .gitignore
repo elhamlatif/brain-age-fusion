@@ -1,0 +1,56 @@
+Data (too big to track)
+data/raw/
+data/processed/
+data/raw/.gitkeep
+data/processed/.gitkeep
+data/processed/mri/.gitkeep
+data/processed/eeg/.gitkeep
+
+Model checkpoints & results
+results
+results/.gitkeep
+.pt
+.pth
+
+Large neuroimaging / EEG files
+.nii
+.nii.gz
+.edf
+.set
+.vhdr
+.vmrk
+.eeg
+
+ Python
+__pycache__/
+.py[cod]
+$py.class
+.so
+.Python
+.egg-info/
+dist/
+build/
+.eggs/
+
+Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+Jupyter
+.ipynb_checkpoints/
+.ipynb
+
+# IDE / OS
+.vscode/
+.idea/
+.swp
+.DS_Store
+Thumbs.db
+
+Logs & temporary files
+.log
+.tmp
+.bak
+.cache/
